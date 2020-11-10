@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zedicus/static/css/main.b4bf52d4.chunk.css",
+    "main.css": "/zedicus/static/css/main.65fa3ebc.chunk.css",
     "main.js": "/zedicus/static/js/main.4c1e6ce8.chunk.js",
     "main.js.map": "/zedicus/static/js/main.4c1e6ce8.chunk.js.map",
     "runtime-main.js": "/zedicus/static/js/runtime-main.13ee75e9.js",
@@ -10,13 +10,13 @@
     "static/js/3.5ec1c516.chunk.js": "/zedicus/static/js/3.5ec1c516.chunk.js",
     "static/js/3.5ec1c516.chunk.js.map": "/zedicus/static/js/3.5ec1c516.chunk.js.map",
     "index.html": "/zedicus/index.html",
-    "static/css/main.b4bf52d4.chunk.css.map": "/zedicus/static/css/main.b4bf52d4.chunk.css.map",
+    "static/css/main.65fa3ebc.chunk.css.map": "/zedicus/static/css/main.65fa3ebc.chunk.css.map",
     "static/js/2.c61610fd.chunk.js.LICENSE.txt": "/zedicus/static/js/2.c61610fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.13ee75e9.js",
     "static/js/2.c61610fd.chunk.js",
-    "static/css/main.b4bf52d4.chunk.css",
+    "static/css/main.65fa3ebc.chunk.css",
     "static/js/main.4c1e6ce8.chunk.js"
   ]
 }
