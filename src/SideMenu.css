@@ -1,0 +1,14 @@
+.SideMenu {
+  padding-top: 95px;
+  padding-bottom: 30px;
+  width: 30%;
+  padding-left: 2%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.SideMenu menu {
+  padding: 10px 10px 10px 10px;
+  background-color: #6cbc79;
+  height: 66vh;
+}

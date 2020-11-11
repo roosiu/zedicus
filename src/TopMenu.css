@@ -1,0 +1,51 @@
+.TopMenuDiv {
+  overflow: hidden;
+  background: rgb(74, 29, 89);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 29, 89, 1) 0%,
+    rgba(106, 62, 122, 1) 35%,
+    rgba(120, 89, 131, 1) 100%
+  );
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  height: 65px;
+  width: 100%; /* Full width */
+
+  z-index: 1;
+}
+.Logo {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: bolder;
+  font-size: 48px;
+  float: left;
+  padding-left: 5%;
+}
+.ButtonsDiv {
+  overflow: hidden;
+  height: 100%;
+  float: right;
+  padding-right: 5%;
+}
+.ButtonsDiv button {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  background-color: #6a3e7a;
+  color: white;
+  height: 35px;
+  margin-top: 15px;
+  font-family: inherit;
+  font-size: 14px;
+  margin-right: 28px;
+  padding: 0 18px 0 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.4s;
+}
+
+.ButtonsDiv button:hover {
+  cursor: pointer;
+  background-color: #6cbc79;
+}
