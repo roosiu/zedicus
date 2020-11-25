@@ -1,29 +1,29 @@
 import React from 'react';
 import './TopMenu.css';
-import ReactDOMServer from 'react-dom/server';
 import OptionText from './OptionText';
 import OptionGradient from './OptionGradient';
 import OptionBorder from './OptionBorder';
 import OptionShadow from './OptionShadow';
+import ReactDOM from 'react-dom';
 
 
 function OpenOption(e) {
   e.preventDefault();
   var SideMenuInner = document.getElementById("SideMenuInner");
   var link = e.target.dataset.link;
-  console.log(link);
+
   switch (link) {
     case "OptionText":
-      SideMenuInner.innerHTML=ReactDOMServer.renderToString(<OptionText />);
+      ReactDOM.render(<OptionText />, SideMenuInner);
       break;
     case "OptionGradient":
-      SideMenuInner.innerHTML=ReactDOMServer.renderToString(<OptionGradient />);
+      ReactDOM.render(<OptionGradient />, SideMenuInner);
       break;
     case "OptionBorder":
-      SideMenuInner.innerHTML=ReactDOMServer.renderToString(<OptionBorder />);
+      ReactDOM.render(<OptionBorder />, SideMenuInner);
       break;
     case "OptionShadow":
-      SideMenuInner.innerHTML=ReactDOMServer.renderToString(<OptionShadow />);
+      ReactDOM.render(<OptionShadow />, SideMenuInner);
       break;
 
     default:
