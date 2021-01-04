@@ -1,14 +1,27 @@
 .SideMenu {
   padding-top: 95px;
   padding-bottom: 30px;
-  width: 30%;
-  padding-left: 2%;
+  width: 100%;
   box-sizing: border-box;
   display: inline-block;
 }
 
 .SideMenu menu {
-  padding: 10px 10px 10px 10px;
+  padding: 30px 30px 30px 30px;
   background-color: #6cbc79;
-  height: 66vh;
+}
+
+.TextTop {
+  background-color: #6a3e7a;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 15px;
+  border: white solid 2px;
+}
+
+.Text label {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }

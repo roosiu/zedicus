@@ -4,7 +4,10 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(238, 238, 238) !important;
 }
-
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
 .App {
   text-align: center;
 }
@@ -43,6 +46,6 @@ body {
     transform: rotate(360deg);
   }
 }
-input[type=number] {
+input[type="number"] {
   width: 100%;
 }

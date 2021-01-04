@@ -49,3 +49,7 @@
   cursor: pointer;
   background-color: #6cbc79;
 }
+
+button:focus {
+  outline: 0 !important;
+}

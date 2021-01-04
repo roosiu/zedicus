@@ -1,21 +1,41 @@
 .Main {
   padding-top: 95px;
   padding-bottom: 30px;
-  width: 55%;
+  width: 100%;
   height: 100vh;
-  box-sizing: border-box;
   display: inline-block;
 }
-
+.preview_text_div {
+  margin: 0;
+  top: 50%;
+  font-size: 35px;
+  letter-spacing: 4px;
+  word-spacing: 3px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: capitalize;
+}
+.preview_code {
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.preview_code textarea {
+  resize: none;
+}
 .Main main {
-  padding: 10px 10px 30px 10px;
+  padding: 30px 30px 30px 30px;
+  height: 100%;
 }
 
 .template {
-  margin: auto;
   width: 100%;
-  height: 60vh;
-  background-color: rgb(255, 255, 255);
+
+  /*background-color: rgb(255, 255, 255);*/
   /*box-shadow: 0px 0px 85px 19px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0px 0px 85px 19px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0px 0px 85px 19px rgba(0, 0, 0, 0.6);*/
